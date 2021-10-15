@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #we are using OpenCV to Get and read the Input Image
-img = cv2.imread('Input path image here')
+img = cv2.imread('Input image path here')
 
 # Converts the Colored images to Grayscale Image
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
